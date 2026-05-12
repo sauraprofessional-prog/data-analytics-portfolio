@@ -1,0 +1,35 @@
+API DETAILS
+
+Base URL:
+https://jsonplaceholder.typicode.com/
+
+Endpoints Used:
+
+1. GET /users
+Returns list of users
+
+2. GET /posts
+Returns list of posts
+
+Purpose:
+Used for API integration and dashboard visualization in Power BI.
+
+Sample Response (Users):
+
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "email": "leanne@example.com"
+  }
+]
+
+Sample Response (Posts):
+
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "Sample Post Title"
+  }
+]
